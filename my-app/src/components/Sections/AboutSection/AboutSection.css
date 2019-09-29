@@ -1,0 +1,34 @@
+.About {
+    display: flex;
+    justify-content: space-between;
+    line-height: 40px;
+}
+.Heading3 {
+    line-height: 60px;
+    border-bottom: 4px solid black;
+    margin-bottom: 14%;
+    letter-spacing: 5px;
+}
+.Left2 {
+    width: 40%;
+    font-size: 1.2em;
+}
+.Right2 {
+    width: 40%;
+    padding-top: 11%;
+}
+
+@media screen and (max-width: 500px) {
+    .About {
+        flex-direction: column;
+    }
+    .Left2 {
+        width: 100%;
+        margin-top: 10%;
+    }
+    .Right2 {
+        width: 100%;
+        padding-top: 0;
+    }
+    html, body  {overflow-x:hidden;margin:0px;padding:0px;width:100%;height:100;}	
+  }

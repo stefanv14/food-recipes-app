@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+  }
+  
+.Categories {
+    margin-top: 4%;
+}
+.GridItem {
+    margin-top: 2%;
+    align-self: center;
+}
+.WrapDiv {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 1280px) {
+    .GridContainer {
+        grid-template-columns: auto auto;
+        padding: 0 calc((100% - 300px)/2);
+    }
+    .Our {
+        width:100%;
+    }
+    .Categories {
+        margin-top: 10%;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .Res {
+        flex-direction: column;
+        text-align: center;
+        padding: 0 calc((100% - 300px)/2);
+    }
+    .Categories {
+        margin-top: 20%;
+    }
+}

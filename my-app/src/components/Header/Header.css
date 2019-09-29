@@ -1,0 +1,69 @@
+.Link {
+    text-decoration: none;
+    color: #333;
+    text-align:center;
+  }
+.Navigation {
+  display: flex;
+}
+.NavItems {
+  flex-grow: 1;
+}
+.Link2 {
+  display: none;
+}
+.Home {
+  display: none;
+  margin-top: 20%;
+}
+
+@media (min-width: 500px) and (max-width: 1280px) {
+  .NavItems {
+      display: none;
+  }
+  .Link2{
+    display:none;
+  }
+  .AppBar {
+    display: flex;
+    flex-direction: column;
+  }
+  .Navigation {
+    width:20%;
+    align-items: center;
+    height:75px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .HomeSections {
+    display: none;
+  }
+  .Popper {
+    margin-right:auto;
+    margin-top: 4%;
+  }
+}
+@media screen and (max-width: 499px) {
+  .Navigation {
+    width:20%;
+    align-items: center;
+    height:75px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+  .NavItems {
+    display:none;
+  }
+  .Navigation {
+    flex-direction: column;
+  }
+  .Popper {
+    margin-right:auto;
+    margin-top: 8%;
+  }
+  .HomeSections {
+    display: none;
+  }
+}

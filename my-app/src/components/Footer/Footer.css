@@ -1,0 +1,27 @@
+.Foo {
+    display: flex;
+    justify-content: space-between;
+}
+.LogoImg {
+    width: 75%;
+}
+.SocialMedia {
+    padding-top: 2.5%;
+}
+.Insta {
+    width: 4%;
+    float: right;  
+}
+.Fb {
+    width: 4%;
+    float: right;
+}
+.Insta, .Fb {
+    margin-right: 3%;
+}
+.CopyRight {
+    text-align: center;
+    height:auto;
+    font-size: 1rem;
+    clear: both;
+}

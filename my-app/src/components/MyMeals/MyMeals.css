@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+  }
+
+.MyMeals {
+    margin-top: 10%;
+}
+.GridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+    margin: auto 0;
+    height: 100vh;
+}
+.GridItem {
+    margin-top: 2%;
+    align-self: center;
+}
+.WrapDiv {
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+@media (min-width: 500px) and (max-width: 1280px) {
+    .MyMeals {
+        margin-top: 10%; 
+    }
+}
+
+@media screen and (max-width: 499px) {
+    .MyMeals {
+        margin-top: 25%; 
+    }
+}
