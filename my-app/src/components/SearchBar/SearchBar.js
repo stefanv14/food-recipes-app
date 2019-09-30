@@ -61,7 +61,7 @@ export default function SearchAppBar(props) {
         </div>
         <InputBase
             className="Input"
-            placeholder="Search recepies…"
+            placeholder="Search recipes…"
             onChange={handleChange.bind(this)}
             classes={{
             root: classes.inputRoot,
