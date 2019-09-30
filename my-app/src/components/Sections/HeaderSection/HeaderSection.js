@@ -9,7 +9,7 @@ const headerSection = () => {
     return (
         <header className="Header">
             <div className="TextLeft">
-                <h1 className="Heading">Food recipies</h1>
+                <h1 className="Heading">Food recipes</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur addipscing elit. Nunc maximus, nulla ut commodo sagittis sapien dui mattis dui non pulvnar lorem felis nec erat</p><br />
                     <Link   activeClass="active"
                             className="Btn"
