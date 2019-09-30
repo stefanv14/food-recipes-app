@@ -39,8 +39,6 @@ class MyMeals extends Component {
     }
 
     render() {
-        const niz=[];
-        niz.push(this.state.meal,this.state.meal2)
         return ( 
             <div className="MyMeals">
                <Grid container spacing={3} className="GridContainer" style={{marginBottom:'2%',height:'auto'}}>
