@@ -64,7 +64,7 @@ function HamburgerMenu(props) {
                                 offset={50}
                                 duration={1000}
                           >
-                              Categorys
+                              Categories
                           </Link>
                         </MenuItem>
 
